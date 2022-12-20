@@ -1,0 +1,27 @@
+Description: spelling fixes
+Origin: vendor
+Author: gregor herrmann <gregoa@debian.org>
+Last-Update: 2016-10-29
+Forwarded: https://rt.cpan.org/Ticket/Display.html?id=118546
+Bug: https://rt.cpan.org/Ticket/Display.html?id=118546
+
+--- a/Bignum.pm
++++ b/Bignum.pm
+@@ -73,7 +73,7 @@
+  my $bn = Crypt::OpenSSL::Bignum->new_from_hex($hex_string); #no leading '0x'
+ 
+ Create a new Crypt::OpenSSL::Bignum object whose value is specified by
+-the given hexidecimal representation.
++the given hexadecimal representation.
+ 
+ =item new_from_word
+ 
+@@ -171,7 +171,7 @@
+ 
+  my $hex_string = $self->to_hex;
+ 
+-Return a hexidecimal string representation of this object.
++Return a hexadecimal string representation of this object.
+ 
+ =item to_bin
+ 
